@@ -1,0 +1,20 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+body{
+    font-size: 14px;
+    color: #111;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.wrapper{
+    min-width: 1100px;
+    margin: 0 auto;
+}
