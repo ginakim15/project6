@@ -223,7 +223,7 @@ $(function(){
     
 
     /**(.sc-visual .group-category)데이터바인딩(menuData.json) */
-    fetch('https://ginakim15.github.io/project6//assets/data/menuData.json')
+    fetch('https://ginakim15.github.io/project6/assets/data/menuData.json')
     .then(res=>res.json())
     .then(json=>{
         data=json.menu;
